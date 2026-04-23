@@ -58,8 +58,8 @@ public abstract class Contact {
     private String phoneNumber;
 
     Contact(String name, String relationship, String phoneNumber) {
-        this.setname(name);
-        this.setrelationship(relationship);
+        this.setName(name);
+        this.setRelationship(relationship);
         this.setPhoneNumber(phoneNumber);
     }
 
@@ -68,21 +68,21 @@ public abstract class Contact {
         return this.name;
     }
 
-    public String getcontact() {
+    public String getContact() {
         return this.phoneNumber;
     }
 
-    public String getrelationship() {
+    public String getRelationship() {
         return this.relationship;
     }
 
     // So we are moving on to the setter methods which are used to change or
     // initialize the variables
-    public void setname(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public void setrelationship(String relationship) {
+    public void setRelationship(String relationship) {
         this.relationship = relationship;
     }
 

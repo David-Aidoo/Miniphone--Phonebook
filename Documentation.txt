@@ -1,0 +1,10 @@
+So i wanted to create a project like a miniphonebook.
+So this project allows you to create new contacts, either business or personal contacts and store them.
+So far, this projects consists of three main classes, the personalContact class, BusinessContact class which are all 
+subclasses of the parent class, Contact which is an abstract class. 
+We move to the main class in order to see what we can do with this app or what it allows for us to do. 
+1. It should allow us to create contacts. With that, it should offer us a menu that allows us to create either a business or 
+a personal contact. 
+Before that i would have to create objects of both the subclasses and store them in an Arraylist so that i would make the option of 
+making modifications to contacts possible. 
+Another big thing is that i should be able to list all the contacts on the phonebook. 
